@@ -1,7 +1,7 @@
 # Maps for your Laravel application
 
 [![GitLab Repository](https://img.shields.io/badge/GitLab-gonoware/laravel--maps-blue.svg?logo=gitlab&style=flat-square&longCache=true)](https://gitlab.com/gonoware/laravel-maps)
-[![Laravel Version](https://img.shields.io/badge/Laravel-7-blue.svg?logo=laravel&style=flat-square&longCache=true)]()
+[![Laravel Version](https://img.shields.io/badge/Laravel-9-blue.svg?logo=laravel&style=flat-square&longCache=true)]()
 [![Latest Stable Version](https://poser.pugx.org/gonoware/laravel-maps/v/stable?format=flat-square)](https://packagist.org/packages/gonoware/laravel-maps)
 [![StyleCI](https://gitlab.styleci.io/repos/8146646/shield)](https://gitlab.styleci.io/repos/8146646)
 [![License](https://poser.pugx.org/gonoware/laravel-maps/license?format=flat-square)](https://packagist.org/packages/gonoware/laravel-maps)
@@ -19,8 +19,6 @@ Supported map services:
 
 > Note: Yandex Maps API does not work in Chrome.
 
-For Laravel 5.5 use version [1.0.3](https://gitlab.com/gonoware/laravel-maps/tree/v1.0.3)
-
 ## Features
 | | Google Maps | OpenStreetMap | Bing Maps | MapQuest | Yandex Maps | MapKit |  
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -37,8 +35,6 @@ This package can be installed through Composer.
 ```bash
 composer require gonoware/laravel-maps
 ```
-Laravel 5.5 uses Package Auto-Discovery, so doesn't require you to manually add 
-the ServiceProvider.
 
 Publish the compiled assets to `public/vendor/maps` with one of these 
 commands:

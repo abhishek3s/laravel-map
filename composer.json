@@ -35,7 +35,7 @@
     "type": "library",
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^9.0"
+        "illuminate/support": "*"
     },
     "require-dev": {
         "mockery/mockery": "^1.4.4",
